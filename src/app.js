@@ -89,13 +89,6 @@ app.get('/weather', (req, res) => {
                 })
             }
         })
-    })
-
-    res.send({
-        forecast: '30 Degrees',
-        location: 'Cairo, Egypt',
-        author: 'Omar El Sayed',
-        address: req.query.address
     }) */
 })
 

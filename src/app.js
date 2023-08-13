@@ -62,7 +62,8 @@ app.get('/weather', (req, res) => {
             })
         } else {
             return res.send({
-                forecast: response.body.current.weather_descriptions[0] + ' It is currently ' + response.body.current.temperature + ' degress out. There is a ' + response.body.current.precip + '% chance of rain.'
+                location: response.body.request.query,
+                forecast: 'It is ' + response.body.location.localtime + ' and it is ' + response.body.current.weather_descriptions[0] + ', It is currently ' + response.body.current.temperature + ' degress out. There is a ' + response.body.current.precip + '% chance of rain.'
             })
         }
     })

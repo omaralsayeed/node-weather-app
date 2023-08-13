@@ -12,7 +12,7 @@ formElement.addEventListener('submit', (e) => {
             if (data.error) {
                 messageOne.textContent = data.error
             } else {
-                messageOne.textContent = inputElement.value
+                messageOne.textContent = data.location
                 messageTwo.textContent = data.forecast
             }
         })

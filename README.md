@@ -20,9 +20,9 @@ A simple yet powerful weather forecasting app built during my journey learning N
 
 1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/yourusername/weather-app.git
-   cd weather-app```
+   cd weather-app
 2. **Install dependencies:**
 ```npm install```
 3. **Configure API Key:**
